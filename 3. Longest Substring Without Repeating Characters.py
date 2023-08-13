@@ -43,8 +43,7 @@ class Solution(object):
         return length
 
 if __name__ == '__main__':
-    # s = "abcabcbb"
-    s = '  '
+    s = "abcabcbb"
 
     solution = Solution()
     print(solution.lengthOfLongestSubstring(s))
